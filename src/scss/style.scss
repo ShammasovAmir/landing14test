@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import "./reset";
+@import "./variables";
+@import "./grid";
+// Components
+@import "../components/Navbar/navbar.scss";
+@import "../components/Banner/Banner.scss";
+@import "../components/About/About.scss";
+@import "../components/Testimonials/Testimonials.scss";
+@import "../components/Footer/Footer.scss";
+
+body {
+  line-height: 1;
+  background: #020a18;
+  color: white;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+}
