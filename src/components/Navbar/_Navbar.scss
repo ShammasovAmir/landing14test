@@ -7,6 +7,14 @@
   );
   padding: 20px 0;
 
+  &__logo {
+    @media (max-width: 1008px) {
+      object-fit: contain;
+      width: 187px;
+      height: 38px;
+    }
+  }
+
   &__main {
     height: 59px;
     display: flex;
@@ -26,6 +34,10 @@
     display: flex;
     align-items: center;
     justify-content: end;
+
+    @media (max-width: 1008px) {
+      display: none;
+    }
   }
 
   &__btn {
@@ -36,6 +48,29 @@
     border-radius: 5px;
     border: 0;
     font-weight: 500;
+    cursor: pointer;
+  }
+
+  &__burger-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 59px;
+
+    @media (max-width: 1008px) {
+      height: 38px !important;
+    }
+
+    @media (min-width: 1008px) {
+      display: none;
+    }
+  }
+
+  &__burger-btn {
+    background: rgb(9, 17, 30);
+    font-size: 30px;
+    border: none;
+    color: #fff;
     cursor: pointer;
   }
 }

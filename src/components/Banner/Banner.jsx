@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <section className="banner">
       <div className="container">
-        <div className="col-xl-7">
+        <div className="col-md-7">
           <div className="banner__main-text">
             <div className="banner__subheadline">Next genaretion platform</div>
             <h1 className="banner__headline">
@@ -27,7 +27,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="col-xl-5">
+        <div className="col-md-5">
           <div className="banner__img-container">
             <img src={banner} alt="" />
           </div>
@@ -35,16 +35,16 @@ const Banner = () => {
       </div>
       <div className="banner__company-logos">
         <div className="container">
-          <div className="col-lg-3">
+          <div className="banner__company-logo-container col-lg-3 col-md-6 col-xs-12">
             <img src={companyLogo1} alt="" className="banner__info-img" />
           </div>
-          <div className="col-lg-3">
+          <div className="banner__company-logo-container col-lg-3 col-md-6 col-xs-12">
             <img src={companyLogo2} alt="" className="banner__info-img" />
           </div>
-          <div className="col-lg-3">
+          <div className="banner__company-logo-container col-lg-3 col-md-6 col-xs-12">
             <img src={companyLogo3} alt="" className="banner__info-img" />
           </div>
-          <div className="col-lg-3">
+          <div className="banner__company-logo-container col-lg-3 col-md-6 col-xs-12">
             <img src={companyLogo4} alt="" className="banner__info-img" />
           </div>
         </div>

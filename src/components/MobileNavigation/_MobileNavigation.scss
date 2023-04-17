@@ -1,0 +1,39 @@
+.mobile-navigation-wrapper {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  z-index: 15;
+}
+
+.mobile-navigation {
+  pointer-events: all;
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: #020a18;
+  padding: 1.75rem;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(100%);
+
+  &--open {
+    transform: translateX(0);
+  }
+
+  &__link {
+    padding-right: 80px;
+    padding-bottom: 30px;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+}

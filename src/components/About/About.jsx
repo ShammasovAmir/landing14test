@@ -4,12 +4,12 @@ const About = () => {
   return (
     <section className="about">
       <div className="container">
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-6">
           <div className="about__img-container">
             <img src={about} alt="" />
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-6">
           <div className="about__main-text">
             <h1 className="about__title">
               Apply AI, Deep Learning and Data Sciece to solve
