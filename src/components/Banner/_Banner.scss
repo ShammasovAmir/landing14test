@@ -135,6 +135,12 @@
   &__company-logo-container {
     @media (max-width: 768px) {
       margin-bottom: 16px;
+
+      img {
+        width: 207px;
+        height: 59px;
+        object-fit: contain;
+      }
     }
   }
 }

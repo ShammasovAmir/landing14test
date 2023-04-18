@@ -32,12 +32,18 @@
     }
   }
 
-  &__title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    padding-bottom: 2rem;
+  .col-md-4.col-sm-12 {
+    .footer__title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+      padding-bottom: 2rem;
+    }
+  }
+
+  &__list {
+    margin-bottom: 30px;
   }
 
   &__list-item {
@@ -70,5 +76,13 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+  }
+
+  @media (max-width: 900px) {
+    margin-top: 100px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 0;
   }
 }

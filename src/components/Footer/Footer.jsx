@@ -13,7 +13,10 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="col-xl-3">
+        <div
+          className="col-lg-3 col-md-4 col-sm-12"
+          style={{ marginBottom: 30 }}
+        >
           <img src={logo} className="footer__ai-logo" alt="" />
           <p className="footer__normal-text">
             Lorem ipsum is placeholder text commonly used in the graphic, print,
@@ -29,7 +32,7 @@ const Footer = () => {
             <img src={mapIconLogo} alt="" /> 450 Wall Street, USA, New York
           </p>
         </div>
-        <div className="col-xl-2">
+        <div className="col-lg-2 col-md-4 col-sm-12">
           <h4 className="footer__title">INFORMATION</h4>
           <ul className="footer__list">
             <li className="footer__list-item">New Collection</li>
@@ -40,7 +43,7 @@ const Footer = () => {
             <li className="footer__list-item">Orders History</li>
           </ul>
         </div>
-        <div className="col-xl-2">
+        <div className="col-lg-2 col-md-4 col-sm-12">
           <h4 className="footer__title">FOOTER MENU</h4>
           <ul className="footer__list">
             <li className="footer__list-item">Instagram profile</li>
@@ -51,7 +54,7 @@ const Footer = () => {
             <li className="footer__list-item">Purchase Theme</li>
           </ul>
         </div>
-        <div className="col-xl-2">
+        <div className="col-lg-2 col-md-4 col-sm-12">
           <h4 className="footer__title">USEFUL LINKS</h4>
           <ul className="footer__list">
             <li className="footer__list-item">Instagram profile</li>
@@ -62,7 +65,7 @@ const Footer = () => {
             <li className="footer__list-item">Purchase Theme</li>
           </ul>
         </div>
-        <div className="col-xl-3">
+        <div className="col-lg-3 col-md-4 col-sm-12">
           <div>
             <h4 className="footer__title">ABOUT THE STORE</h4>
             <p className="footer__normal-text">

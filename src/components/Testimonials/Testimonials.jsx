@@ -20,6 +20,17 @@ const Testimonials = () => {
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
             style={{ height: "450px" }}
+            breakpoints={{
+              1158: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              1: {
+                slidesPerView: 1,
+              },
+            }}
           >
             {sliderData.map((slide, index) => (
               <SwiperSlide key={index}>
@@ -39,7 +50,7 @@ const Testimonials = () => {
       </div>
       <div className="testimonials__info-container">
         <div className="container">
-          <div className="col-lg-6" style={{ height: "100%" }}>
+          <div className="col-md-6" style={{ height: "100%" }}>
             <div className="testimonials__info-text">
               <h1 className="testimonials__title">
                 What our clients say about our awesome solutions
@@ -64,7 +75,7 @@ const Testimonials = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-md-6">
             <div className="testimonials__img-container">
               <img src={testimonialsImg} alt="" />
             </div>
